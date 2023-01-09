@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/dc.jpg");
+    background-position: center;
+}
+   
+
+
+
+header {
+    color: whitesmoke;
+    
+}
+
+h1 {
+    background-color: rgb(61, 52, 52);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    font-size: 4rem;
+    display: inline-block;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: rgb(61, 52, 52);
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    display: inline-block;
+    color: whitesmoke;
+    background-color:rgb(61, 52, 52) ;
+}
+
+.batman-details p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    color: gold;
+    background-color: #333;
+    display: inline-block; 
+}
+
+.superman-details p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    color:  rgb(255, 32, 76);
+    background-color:  rgb(48, 69, 130);
+    display: inline-block; 
+}
+
+.the-flash-details p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    color:  gold;
+    background-color:  crimson;
+    display: inline-block; 
+}
+
+.batman-select {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: gold;
+   background-color: #333;
+    
+}
+
+.batman-select:hover {
+    cursor: pointer;
+    background-color: gold;
+    color: #333;
+}
+
+
+.box {
+    font-size: 2rem;
+    color: #EFD9CE;
+    background-color: #25283D;
+    margin: 5rem 0;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.batman-img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.batman {
+    border: 10px solid #333;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.superman-img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.superman {
+    border: 10px solid #333;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.the-flash-img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.the-flash {
+    max-width: 350px;
+    border: 10px solid #333;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.superman-select {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: rgb(255, 32, 76);
+   background-color: rgb(48, 69, 130);
+    
+}
+
+.superman-select:hover {
+    cursor: pointer;
+    background-color: rgb(255, 32, 76);
+    color: rgb(48, 69, 130);
+}
+
+.the-flash-select {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: gold;
+   background-color: crimson;
+    
+}
+
+.the-flash-select:hover {
+    cursor: pointer;
+    background-color: gold;
+    color: crimson;
+}
+
+.hero-select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.go-btn {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.go-btn:hover {
+    cursor: pointer;
+    background-color: rgb(186, 179, 179);
+}
+
+.disabled {
+    /* filter: grayscale(1); */
+    opacity: 0.7;
+}
+
+
+@media screen and (max-width : 1100px) {
+    .hero-select {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-select div {
+        margin-top: 2rem;
+    }
+
+
+}
